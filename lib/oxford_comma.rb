@@ -8,6 +8,6 @@ def oxford_comma(array)
      array.each do |y|
        array_copy.push(y)
      end
-       array_copy[array_copy.last] = "and #{array.last}"
+       array_copy[last] = "and #{array.last}"
    end
 end
