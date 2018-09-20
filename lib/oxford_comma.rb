@@ -9,6 +9,7 @@ def oxford_comma(array)
       array.each do |x|
         array2.push(x)
       return array2
+    end
   end
     
 end
