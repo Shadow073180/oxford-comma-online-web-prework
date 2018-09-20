@@ -8,6 +8,7 @@ def oxford_comma(array)
       array2 = [] 
       array.each do |x|
         array2.push(x)
+        array2.last = 
       puts array2
     end
   end
