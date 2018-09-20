@@ -8,7 +8,8 @@ def oxford_comma(array)
       array2 = [] 
       array.each do |x|
         array2.push(x)
-        array2[length -1].insert(0, "and")
+      end
+        array2.last.insert(0, "and")
       puts array2
     end
   end
