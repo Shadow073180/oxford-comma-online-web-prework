@@ -1,6 +1,6 @@
 def oxford_comma(array)
  case array.length
-   when 0 
+   when 1 
      x = array.join
      return x
    when 2 
