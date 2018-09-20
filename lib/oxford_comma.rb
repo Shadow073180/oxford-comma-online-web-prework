@@ -5,7 +5,9 @@ def oxford_comma(array)
     when 2 
       array.join(" and ")
     when 3 
-      array2 = array2.push(array) 
+      array2 = [] 
+      array.each do |x|
+        array2.push(x)
       return array2
   end
     
