@@ -4,8 +4,8 @@ def oxford_comma(array)
      x = array.join
      return x
    when 2 
-     x = array.join
-     x.split("and")
-     return x
+     array2 = []
+     array2[0] = array
+     return array
 end
 end
