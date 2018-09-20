@@ -5,12 +5,8 @@ def oxford_comma(array)
     when 2 
       array.join(" and ")
     when 3 
-      array2 = [] 
-      array.each do |x|
-        array2.push(x)
-      end
-        array2.last.insert(0, "and")
-      puts array2
+      array.last.insert(0, "and")
+      puts array
     end
 
     
