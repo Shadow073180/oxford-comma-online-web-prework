@@ -4,6 +4,9 @@ def oxford_comma(array)
       return array[0]
     when 2 
       array.join(" and ")
+    when 3 
+      array2 = array.push(array) 
+      return array2
   end
     
 end
