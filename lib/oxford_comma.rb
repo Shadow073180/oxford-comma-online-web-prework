@@ -12,6 +12,6 @@ def oxford_comma(array)
         array2.last.insert(0, "and")
       puts array2
     end
-  end
+
     
 end
