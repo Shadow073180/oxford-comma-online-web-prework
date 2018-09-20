@@ -6,6 +6,7 @@ def oxford_comma(array)
    when 2 
      array2 = []
      array2[0] = array
-     return array
+     array2[0].split("and")
+     return array2[0]
 end
 end
