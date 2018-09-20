@@ -5,8 +5,8 @@ def oxford_comma(array)
     when 2 
       array.join(" and ")
     when 3 
-      array.last.insert(0, "and")
-      puts array
+      x = puts array.last
+      puts x
     end
 
     
