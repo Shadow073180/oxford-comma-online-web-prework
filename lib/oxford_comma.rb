@@ -8,10 +8,10 @@ def oxford_comma(array)
      x = array.join(", ")
      x.insert(14, "and ")
       return x
-    when > 3
-     x = array.join(", ")
-     x.insert(30, "and ")
-       return x 
+    else 
+     y = array.join(", ")
+     y.insert(30, "and ")
+       return y 
     end
 
     
