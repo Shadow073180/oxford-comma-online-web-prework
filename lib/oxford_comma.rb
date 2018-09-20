@@ -9,7 +9,7 @@ def oxford_comma(array)
      x.insert(14, "and ")
       return x
     else 
-     array.insert(array.insert-1 , "and ")
+     array.last = "and #{array.last}"
      return array
     end
 
