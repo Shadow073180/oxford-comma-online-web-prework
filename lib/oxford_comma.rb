@@ -6,7 +6,7 @@ def oxford_comma(array)
       array.join(" and ")
     when 3
      x = array.join(", ")
-     x.insert(15, "and ")
+     x.insert(14, "and ")
       return x
     end
 
